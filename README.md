@@ -15,3 +15,8 @@ Supervised learning is good at classification and regression problems, such as d
 # Unsupervised ML
 unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention. Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
 
+# Classification
+Refers to a predictive modeling problem where a class label is predicted for a given example of input data, Example: Classify if its Spam or not.
+Classification Algorithms: 1-K-NN 2-Decision Tree 3-Naive Bayes 4-Logistic Regression 5-Random Forests 
+
+
