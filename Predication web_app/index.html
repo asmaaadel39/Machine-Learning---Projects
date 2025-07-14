@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Risk Prediction</title>
+</head>
+<body>
+    <h2>Enter Patient Data</h2>
+    <form method="POST" action="/predict">
+        Male: <input type="text" name="male"><br>
+        Age: <input type="text" name="age"><br>
+        Education: <input type="text" name="education"><br>
+        Current Smoker: <input type="text" name="currentSmoker"><br>
+        Cigarettes per Day: <input type="text" name="cigsPerDay"><br>
+        BP Meds: <input type="text" name="BPMeds"><br>
+        Prevalent Stroke: <input type="text" name="prevalentStroke"><br>
+        Prevalent Hypertension: <input type="text" name="prevalentHyp"><br>
+        Diabetes: <input type="text" name="diabetes"><br>
+        Total Cholesterol: <input type="text" name="totChol"><br>
+        Systolic BP: <input type="text" name="sysBP"><br>
+        Diastolic BP: <input type="text" name="diaBP"><br>
+        BMI: <input type="text" name="BMI"><br>
+        Heart Rate: <input type="text" name="heartRate"><br>
+        Glucose: <input type="text" name="glucose"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
